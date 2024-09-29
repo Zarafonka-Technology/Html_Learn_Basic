@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zarafonka Technology">
+        <meta name="description" content="this is contains all the thing iam learning how to create as i learn html">
+        <title>MY First Web Page</title>
+        <link rel="icon" href="html-5.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#html">Learning HTML</a></li>
+            </ul>
+        </nav>
+
+        <figure>
+            <hr>
+            <h1>hello world!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad magnam 
+        rem neque eos! Obcaecati fugiat cumque harum ut amet atque beatae aliquid quas,
+        debitis non. Officia eaque voluptate tempora sunt!
+        Molestiae laudantium adipisci dignissimos perspiciatis. Commodi dolore 
+        laudantium libero doloribus excepturi est qui cupiditate. Aliquid consectetur 
+        ratione, eligendi aliquam, minus molestias alias numquam eos, cupiditate sed ullam! 
+        Voluptates, hic ipsum.
+        Vero voluptates impedit sint beatae dignissimos illum unde voluptas, quidem cumque. 
+        Dolor vero ipsam adipisci corporis dolores ullam quis earum, officiis, fugiat ad 
+        iure at pariatur maxime maiores totam fuga.
+        Cumque inventore dolorem quod tempore, quasi quae id nemo fugit impedit, vero eum ea 
+        autem incidunt fugiat minus, laboriosam velit? At ducimus ex minus maxime corporis 
+        explicabo numquam molestias autem.
+        Voluptas laboriosam illum, vitae consectetur nemo dolores laborum. Odit esse beatae 
+        quia ex inventore, voluptatibus error asperiores ea eligendi iusto nesciunt eius 
+        deleniti voluptates tenetur omnis tempora nihil saepe maxime!</p>
+            <img src="img/florida-5257191_1280.png" alt="HTML5 Logo" title="Iam learning HTML5" width="400" height="400">
+            <aside>
+                <details>
+                    <summary>Guess the <mark>number of hours</mark> I code per day</summary><p>I start at <time datetime="08:00">8 am</time> and i write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+                </details>
+            </aside>
+            <p>let me tell you how:
+                <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+                <br>&nbsp;&nbsp;&nbsp;I learn more about web dev.
+                <br>I learn more about web dev.<abbr title="mozilla Developer Network"><a href="https://developer.mozilla.org">MDN</a></abbr>
+                <em>Really need a getaway </em>
+                <strong>Learn No Way!</strong>
+            </p>
+            
+        </figure>
+        <div></div>
+        <table>
+            <thead>
+
+                <tbody>
+                    
+            <tr>
+                <th>Time</th>
+                <th>hours</th>
+                <th>Activity</th>
+                <caption>My Daily Schrdule</caption>
+            </tr>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
+                </td>
+                <td>Write code</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td>
+                    <time datetime="11:00">11 am</time>-<time datetime="12:00">12 pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12 pm</time>-<time datetime="17:00">5 pm</time>
+                </td>
+                <td>Study for other Courses</td>
+            </tr>
+            <tr>
+                <th scope="row">evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th>Night</th>
+                <td>Sleep</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">And that's what i do everyday, 5 day a week. Just eat, sleep, code .. and recharge! </td>
+                </tr>
+            </tfoot>
+            
+            </tbody>
+        </thead>
+        </table>
+        <form action= "https://httpbin.org/get" method="get">
+            &nbsp;&nbsp;
+            <fieldset>
+                <legend>Personal Info</legend>
+            <p>
+            <Label for="firstName">First Name: </Label>
+            <input type="text" name="firstName" id="firstName" placeholder="Zarafonka" autocomplete="on" required >
+            </p>
+            <p>
+            <Label for="lastName">Last Name: </Label>
+            <input type="text" name="lastName" id="lastName" placeholder="Technology" autocomplete="on" required>
+            </p> 
+            <p>
+                <Label for="password">Password: </Label>
+                <input type="password" name="password" id="password" placeholder="Your Secert" required>
+            </p>
+            <p>
+                <Label for="phone">Phone: </Label>
+                <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+            </p>
+            <p>
+                <Label for="decade">Favorite Decade: </Label>
+                <input type="number" name="decade" id="decade" min="1950" max="2025" step="5" value="1980">
+            </p>
+            <p>
+                <Label for="Coffee">Favorite Coffee</Label>
+                <select name="Coffee" id="coffee" multiple size="5">
+                    <optgroup Label="coffees">
+                        <option value="regular coffee">Rregular Coffee</option>
+                        <option value="iced coffee">iced coffee</option>
+                    </optgroup>
+                    <optgroup Label="Espresso Drinks"></optgroup>
+                        <option value="Latte">Latte</option>
+                        <option value="Cappuccino">Cappuccino</option>
+                        <option value="Cortado">Cortado</option>
+                        <option value="Americano">Americano</option>                  
+                    </optgroup>
+                    <option value="Other">Other</option>  
+                </select>
+            </p>
+            </fieldset>
+            &nbsp;
+            <fieldset>
+                <br>
+                <legend>What is  your Favorite Food? </legend>
+                <p>
+                    <input type="radio" name ="food" id = "tacos" value="Dog">
+                    <Label for="tocas">Tocas</Label>
+                </p>
+                <p>
+                    <input type="radio" name ="food" id = "pizza" value="Pizza">
+                    <Label for="Pizza">Pizza</Label>
+                </p>
+                <p>
+                    <input type="radio" name ="food" id = "Other" value="Other">
+                    <Label for="Other">Other</Label>
+                </p>
+            </fieldset>
+            &nbsp;
+            <fieldset>
+                <br>
+                <legend>Do you have Pets? </legend>
+                <p>
+                    <input type="checkbox" name ="pets" id = "dog" value="dog">
+                    <Label for="Dog">Dog</Label>
+                </p>
+                <p>
+                    <input type="checkbox" name ="pets" id = "Cat" value="Cat">
+                    <Label for="Cat">Cat</Label>
+                </p>
+                <p>
+                    <input type="checkbox" name ="pets" id = "OtherPets" value="OtherPets">
+                    <Label for="OtherPets">Other Pets</Label>
+                </p>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        </form>
+        <!--TODO: Add more Places -->
+        <section id="html">
+
+            <p>Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Dolor eaque, ipsa corrupti
+             quibusdam consequuntur accusamus excepturi asperiores 
+            beatae atque fuga ut et illo aut sapiente repudiandae aperiam 
+            natus libero mollitia.</p>
+            <address>
+            Margaritaville Island Reserve Riviera Cancun
+            Bahia Petempi Paerto Moreles Mexico<br>
+            Colonia Morelos Mexico 77580 
+            </address>
+        </section>
+        
+            <hr>
+            <ol>
+                <li>I Learn more about website dev.</li>
+            </ol>
+            <ul>
+                <li>
+                    <p>I learn more about Website dev.</p>
+                </li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ut iste esse omnis quo odio temporibus quae, maiores consequuntur atque. Velit 
+                laboriosam nobis excepturi quae! Reprehenderit obcaecati libero dolore rem sint.</p>
+            </ul>
+            <dl>
+                <dt>North pole</dt>
+                <dd>I hear this is <strong>Cold</strong>!</dd>
+            </dl>
+        <section></section>
+            &lt;&lt;&lt; &copy; <a href="about1.html">Zarafonka Technology </a>&gt;&gt;&gt;
+    </body>
+</html>
